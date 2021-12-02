@@ -20,7 +20,7 @@ Tableau Public for data visualization
 Dataset:
 The company's histrical data has been used for this project.
 Link: https://divvy-tripdata.s3.amazonaws.com/index.html
-
+I have downloaded 12 files from the above link; 2020-07 - 2021-07.
 
 The summary report is on:
 https://medium.com/@O2gak
