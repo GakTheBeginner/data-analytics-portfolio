@@ -20,7 +20,9 @@ Tableau Public for data visualization
 Dataset:
 The company's histrical data has been used for this project.
 Link: https://divvy-tripdata.s3.amazonaws.com/index.html
-I have downloaded 12 files from the above link; 2020-07 - 2021-07.
+I have downloaded 12 files of 2020-07 - 2021-07 from the above link.
+
+*Note: Data-privacy issues prohibit you from using riders’ personally identifiable information, meaning that I won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
 
 The summary report is on:
 https://medium.com/@O2gak
