@@ -45,7 +45,7 @@ SET GLOBAL local_infile = 1;
 SHOW VARIABLES LIKE 'local_infile';
 
 LOAD DATA LOCAL
-INFILE '/Users/gakthebeginner/Desktop/Projects:study/GDAC /Case Study /202007-divvy-tripdata.csv'
+INFILE '/Users/file_path/202007-divvy-tripdata.csv'
 INTO TABLE 20jul_data 
 	FIELDS TERMINATED BY ','
 	LINES TERMINATED BY '\n'
@@ -59,77 +59,77 @@ SELECT COUNT(ride_id) FROM 20jul_data;
 
 -- It looks everything imported correctly, so conduct the same for the rest
 LOAD DATA LOCAL
-INFILE '/Users/gakthebeginner/Desktop/Projects:study/GDAC /Case Study /202008-divvy-tripdata.csv'
+INFILE '/Users/file_path/202008-divvy-tripdata.csv'
 INTO TABLE 20aug_data 
 	FIELDS TERMINATED BY ','
 	LINES TERMINATED BY '\n'
 	IGNORE 1 ROWS;
     
 LOAD DATA LOCAL
-INFILE '/Users/gakthebeginner/Desktop/Projects:study/GDAC /Case Study /202009-divvy-tripdata.csv'
+INFILE '/Users/file_path/202009-divvy-tripdata.csv'
 INTO TABLE 20sep_data 
 	FIELDS TERMINATED BY ','
 	LINES TERMINATED BY '\n'
 	IGNORE 1 ROWS;
 
 LOAD DATA LOCAL
-INFILE '/Users/gakthebeginner/Desktop/Projects:study/GDAC /Case Study /202010-divvy-tripdata.csv'
+INFILE '/Users/file_path/202010-divvy-tripdata.csv'
 INTO TABLE 20oct_data 
 	FIELDS TERMINATED BY ','
 	LINES TERMINATED BY '\n'
 	IGNORE 1 ROWS;
 
 LOAD DATA LOCAL
-INFILE '/Users/gakthebeginner/Desktop/Projects:study/GDAC /Case Study /202011-divvy-tripdata.csv'
+INFILE '/Users/file_path/202011-divvy-tripdata.csv'
 INTO TABLE 20nov_data 
 	FIELDS TERMINATED BY ','
 	LINES TERMINATED BY '\n'
 	IGNORE 1 ROWS;
 
 LOAD DATA LOCAL
-INFILE '/Users/gakthebeginner/Desktop/Projects:study/GDAC /Case Study /202012-divvy-tripdata.csv'
+INFILE '/Users/file_path/202012-divvy-tripdata.csv'
 INTO TABLE 20dec_data 
 	FIELDS TERMINATED BY ','
 	LINES TERMINATED BY '\n'
 	IGNORE 1 ROWS;
     
 LOAD DATA LOCAL
-INFILE '/Users/gakthebeginner/Desktop/Projects:study/GDAC /Case Study /202101-divvy-tripdata.csv'
+INFILE '/Users/file_path/202101-divvy-tripdata.csv'
 INTO TABLE 21jan_data 
 	FIELDS TERMINATED BY ','
 	LINES TERMINATED BY '\n'
 	IGNORE 1 ROWS;
 
 LOAD DATA LOCAL
-INFILE '/Users/gakthebeginner/Desktop/Projects:study/GDAC /Case Study /202102-divvy-tripdata.csv'
+INFILE '/Users/file_path/202102-divvy-tripdata.csv'
 INTO TABLE 21feb_data 
 	FIELDS TERMINATED BY ','
 	LINES TERMINATED BY '\n'
 	IGNORE 1 ROWS;
 
 LOAD DATA LOCAL
-INFILE '/Users/gakthebeginner/Desktop/Projects:study/GDAC /Case Study /202103-divvy-tripdata.csv'
+INFILE '/Users/file_path/202103-divvy-tripdata.csv'
 INTO TABLE 21mar_data 
 	FIELDS TERMINATED BY ','
 	LINES TERMINATED BY '\n'
 	IGNORE 1 ROWS;
 
 LOAD DATA LOCAL
-INFILE '/Users/gakthebeginner/Desktop/Projects:study/GDAC /Case Study /202104-divvy-tripdata.csv'
+INFILE '/Users/file_path/202104-divvy-tripdata.csv'
 INTO TABLE 21apr_data 
 	FIELDS TERMINATED BY ','
 	LINES TERMINATED BY '\n'
 	IGNORE 1 ROWS;
     
 LOAD DATA LOCAL
-INFILE '/Users/gakthebeginner/Desktop/Projects:study/GDAC /Case Study /202105-divvy-tripdata.csv'
+INFILE '/Users/file_path/202105-divvy-tripdata.csv'
 INTO TABLE 21may_data 
 	FIELDS TERMINATED BY ','
 	LINES TERMINATED BY '\n'
 	IGNORE 1 ROWS;
 
 LOAD DATA LOCAL
-INFILE '/Users/gakthebeginner/Desktop/Projects:study/GDAC /Case Study /202106-divvy-tripdata.csv'
+INFILE '/Users/file_path/202106-divvy-tripdata.csv'
 INTO TABLE 21jun_data 
 	FIELDS TERMINATED BY ','
 	LINES TERMINATED BY '\n'
